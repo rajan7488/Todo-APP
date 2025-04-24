@@ -34,7 +34,6 @@ export default function Home({todos}){
 
     const handleButton=()=>{
         setShowForm(true);
-        console.log(showForm)
     }
 
     const handleEditButton = (id) => {
